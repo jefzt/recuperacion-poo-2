@@ -4,6 +4,7 @@ public class GestorEnvios {
 
     public GestorEnvios(int capacidad) {
         envios = new Envio[capacidad];
+        contador = 0;
         
     }
 
@@ -23,3 +24,4 @@ public class GestorEnvios {
         return contador;
     } 
 }
+
